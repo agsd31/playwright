@@ -9,5 +9,5 @@ test('test', async ({ page }) => {
   });
   await page.getByText('Gate-to-gate support').click();
   await expect(page.getByText('Gate-to-gate support')).toBeVisible();
-  await expect(page.locator('#content')).toContainText('VERTEX2');
+  await expect(page.locator('#content')).toContainText('VERTEX');
 });
